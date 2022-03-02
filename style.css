@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    top: 0s;
+    font-family: 'Roboto';
+    
+}
+
+embed{
+    width: 100%;
+    height: 99.5vh;
+    margin: 0 auto;
+}
+
+/*LOGO*/
+
+.logo{
+    margin: 55px;
+    text-align: center;
+}
+
+.logo img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;   
+    background-size: 100% 100%;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;    
+    object-fit: cover;
+}
+
+/*DESCRICAO*/
+
+.descricao{
+    text-align: center;
+}
+
+.descricao h2{
+    font-size: 22px;
+    margin: 25px;
+    color: #252525;
+}
+
+.descricao p{
+    margin: auto;
+    max-width: 550px;
+    margin-bottom: 45px;
+    font-size: 16px;
+    color: #999999;
+}
+
+/*LINKS*/
+
+.links a{
+    margin-bottom: 25px;
+    text-align: center;
+    display: block;
+}
+
+.links input{
+    cursor: pointer;
+    font-family:arial;
+    color: #282828;
+    width: 250px;
+    height: 50px;
+    font-size:18px;
+    background: #eee;
+    border: none;
+    border-radius: 5px;
+}
+
+.links a:hover input{
+    transition: 0.3s;
+    background: #e1e1e1;
+    font-size: 20px;
+}
+.area-footer{
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+    margin: auto;
+    font-size: 30px;
+    color: #e1e1e1;
+}
+.area-footer a{
+    color: #cccccc;
+    margin-top: 20px;
+}
+.area-footer a:hover{
+    font-size: 33px;
+    color: #b5b5b5;
+}
+
+@media (max-width: 600px){
+
+.links input{ 
+    width: 95%;
+   }
+.logo{
+    margin: 45px;
+}    
+}
